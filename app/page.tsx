@@ -145,7 +145,7 @@ export default function Home() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href={`mailto:${email}`}
+                  href="mailto:itzjbc@gmail.com"
                   className="inline-flex items-center rounded-none border border-cyan-400/40 bg-cyan-500/10 px-7 py-4 text-base font-medium text-white transition hover:bg-cyan-500/20"
                 >
                   <Mail className="mr-2 h-5 w-5" /> Email Me
@@ -470,7 +470,7 @@ export default function Home() {
           </div>
 
           <a
-            href={`mailto:${email}`}
+            href="mailto:itzjbc@gmail.com"
             className="mt-6 inline-flex w-full items-center rounded-none border border-cyan-400/40 bg-cyan-500/10 px-5 py-4 text-sm font-medium text-white transition hover:bg-cyan-500/20"
           >
             <Mail className="mr-3 h-5 w-5" />
@@ -512,7 +512,7 @@ export default function Home() {
 
           <div className="flex items-center gap-2">
             <Mail className="h-4 w-4 text-cyan-400" />
-            <a href={`mailto:${email}`} className="hover:text-cyan-300">
+            <a href="mailto:itzjbc@gmail.com" className="hover:text-cyan-300">
               {email}
             </a>
           </div>
@@ -531,6 +531,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
