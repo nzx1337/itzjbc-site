@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g fill="#22d3ee" filter="url(#glow)" opacity="0.95">
+    <!-- North Island simplified -->
+    <path d="M130 28
+      C143 32 154 43 158 57
+      C162 72 153 87 140 96
+      C127 105 116 116 111 130
+      C106 144 92 146 83 136
+      C74 126 78 110 89 101
+      C100 92 104 82 101 70
+      C98 57 105 44 116 36
+      C121 32 125 30 130 28Z" />
+
+    <!-- South Island simplified -->
+    <path d="M102 136
+      C111 148 110 164 99 177
+      C88 190 75 200 60 208
+      C47 215 34 214 28 205
+      C22 196 30 185 43 179
+      C58 172 66 160 72 145
+      C77 133 92 126 102 136Z" />
+
+    <!-- Stewart Island simplified -->
+    <path d="M48 218
+      C55 216 62 219 65 225
+      C59 231 49 232 43 227
+      C41 223 43 220 48 218Z" />
+  </g>
+</svg>
